@@ -1,5 +1,5 @@
 
-# LZ-UI组件库
+# VUE-UI组件库
 
 ## 环境
 #### 本地开发环境要求
@@ -30,4 +30,5 @@ $ npm run build
 
 ### 目录结构
 
-Author: Jeff Guo
+Author: Jeff Guo  
+https://github.com/megeee/VUE-UI
