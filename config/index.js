@@ -1,7 +1,6 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 var path = require('path');
-require("../static/config");
-let devConfig = new Config().getDevConfig();
+
 module.exports = {
     build: {
         env: require('./prod.env'),
@@ -24,7 +23,7 @@ module.exports = {
     },
     dev: {
         env: require('./dev.env'),
-        port: devConfig.PORT,//端口
+        port: 8002,//端口
         autoOpenBrowser: true,
         assetsSubDirectory: 'static',
         assetsPublicPath: '/',
@@ -35,7 +34,7 @@ module.exports = {
         // In our experience, they generally work as expected,
         // just be aware of this issue when enabling this option.
         cssSourceMap: false,
-        projectName: devConfig.PROJECT_NAME,
+        projectName: "VUE-UI",
         //webPack-http-proxy
         // devServer: {
         //     historyApiFallback: true,

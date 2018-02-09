@@ -3,7 +3,7 @@
 
         <div class="header">
             <div>
-                <div class="logo">LZ-UI 组件库</div>
+                <div class="logo">VUE-UI 组件库</div>
             </div>
         </div>
 
